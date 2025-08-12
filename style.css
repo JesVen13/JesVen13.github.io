@@ -1,0 +1,67 @@
+/* Basic Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+/* Navigation */
+nav {
+    background: #444;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+/* Sections */
+section {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+/* Project Cards */
+.project {
+    background: #f4f4f4;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+.project:hover {
+    background: #e2e2e2;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
